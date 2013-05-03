@@ -116,8 +116,8 @@
 						<a href='" + repo_url + "'>" + repo.name + "</a> \
 					</h3> \
 					<div class='github-stats'> \
-						<a class='repo-watchers' href='" + repo_url + "/watchers'>" + repo.watchers + "</a> \
-						<a class='repo-forks' href='" + repo_url + "/network'>" + repo.forks + "</a> \
+						<a class='repo-watchers' title='watchers' href='" + repo_url + "/watchers'>" + repo.watchers + "</a> \
+						<a class='repo-forks' title='forks' href='" + repo_url + "/network'>" + repo.forks + "</a> \
 					</div> \
 				</div> \
 				<div class='github-box-content'> \
